@@ -1,30 +1,21 @@
-
+FIND_LIBRARY(RUNTIME_LIB rt /usr/lib  /usr/local/lib)
 add_executable(pair-example pair-example.cpp)
-
 add_executable(pair-example1 pair-example1.cpp)
-
 add_executable(tuple-example tuple-example.cpp)
-
 add_executable(tuple-example3 tuple-example-3.cpp)
-
 add_executable(tuple-example4 tuple-example-4.cpp)
-
 add_executable(vector-example1 vector-example-1.cpp)
-
 add_executable(lambda-example1 lambda-example-1.cpp)
-
 add_executable(lambda-example2 lambda-example-2.cpp)
-
 add_executable(lambda-example3 lambda-example-3.cpp)
-
 add_executable(lambda-example4 lambda-example-4.cpp)
-
 add_executable(citizens-example citizens-example.cpp)
-
 add_executable(transform-example transform-example.cpp)
-
 add_executable(foreach-example foreach-example.cpp)
-
 add_executable(filter-example filter-example.cpp)
-
 add_executable(accumulate-example accumulate-example.cpp)
+add_executable(partial-apply-example partial-apply-example.cpp)
+add_executable(bind-example bind-example.cpp)
+add_executable(tuple-apply-example tuple-apply-example.cpp)
+add_executable(lazy-type-example lazy-type-example.cpp)
+target_include_directories(lazy-type-example PUBLIC lazy_utils.h)
