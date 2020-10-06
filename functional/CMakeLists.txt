@@ -26,3 +26,5 @@ add_executable(transform-example transform-example.cpp)
 add_executable(foreach-example foreach-example.cpp)
 
 add_executable(filter-example filter-example.cpp)
+
+add_executable(accumulate-example accumulate-example.cpp)
