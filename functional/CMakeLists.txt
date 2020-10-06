@@ -20,3 +20,9 @@ add_executable(lambda-example3 lambda-example-3.cpp)
 add_executable(lambda-example4 lambda-example-4.cpp)
 
 add_executable(citizens-example citizens-example.cpp)
+
+add_executable(transform-example transform-example.cpp)
+
+add_executable(foreach-example foreach-example.cpp)
+
+add_executable(filter-example filter-example.cpp)
