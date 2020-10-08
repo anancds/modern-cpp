@@ -1,0 +1,18 @@
+//
+// Created by cds on 2020/10/7.
+//
+
+#include <iostream>
+#include <thread>
+
+using namespace std;
+
+int main() {
+  thread t([] {
+    cout << "Hello World from lambda thread." << endl;
+  });
+
+  t.join();
+
+  return 0;
+}
